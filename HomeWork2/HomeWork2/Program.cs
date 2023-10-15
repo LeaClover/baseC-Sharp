@@ -42,10 +42,11 @@
                 }
 
                 int[] sortArray(int[] array) {
-                    for (int i = 0; i < array.Length; i++) { }
+                    /*for (int i = 0; i < array.Length; i++) { }
                     int[] result = array.OrderBy(i => i).ToArray();
-                    for (int i = 0; i < result.Length; i++) { }
-                    return result;
+                    for (int i = 0; i < result.Length; i++) { }*/
+                    Array.Sort(array);
+                    return array;
                 }
 
                 int[,] getMatrixByArray(int[] array) {
